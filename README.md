@@ -1,4 +1,3 @@
-# Cr3dOv3r [![Python 3.5](https://img.shields.io/badge/Python-3.5-yellow.svg)](http://www.python.org/download/) [![Python 2.7](https://img.shields.io/badge/Python-2.7-yellow.svg)](http://www.python.org/download/) ![Build Status](https://img.shields.io/badge/Version-0.4.4-red.svg)
 
 **Your best friend in credential reuse attacks.**
 
@@ -47,7 +46,7 @@ python Cr3d0v3r.py -h
 ```
 **+For Linux :**
 ```
-git clone https://github.com/D4Vinci/Cr3dOv3r.git
+git clone https://github.com/alex14324/Cr3dOv3r.git
 cd Cr3dOv3r
 python3 -m pip install -r requirements.txt
 python3 Cr3d0v3r.py -h
@@ -55,21 +54,15 @@ python3 Cr3d0v3r.py -h
 
 **+For docker :**
 ```bash
-git clone https://github.com/D4Vinci/Cr3dOv3r.git
+git clone https://github.com/alex14324/Cr3dOv3r.git
 docker build -t cr3dov3r Cr3dOv3r/
 docker run -it cr3dov3r "test@example.com"
 ```
 
 
-**If you want to add a website to the tool, follow the instructions in the [wiki](https://github.com/D4Vinci/Cr3dOv3r/wiki)**
 
 ## Contact
-- [Twitter](https://twitter.com/D4Vinci1)
 
-## Donation
-If this tool has been useful for you, feel free to thank me by buying me a coffee :)
-
-[![Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/d4vinci)
 
 ## Disclaimer
 Cr3dOv3r is created to show how could credential reuse attacks get dangerous and it's not responsible for misuse or illegal purposes. Use it only for Pen-test or educational purpose !!!
